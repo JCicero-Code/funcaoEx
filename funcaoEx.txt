@@ -1,0 +1,35 @@
+﻿print('Digite o primeiro número: ')
+x = str(input())
+
+print('Digite o operador ')
+y = str(input())
+
+print('Digite o segundo número: ')
+z = str(input())
+
+
+def calcular(x,y,z):
+    
+    if(y == "+" ):
+       
+          
+       resultado = int(eval(x+y+z))
+       return resultado
+
+    elif(y == "-"):
+        resultado = int(eval(x+y+z))
+        return resultado
+
+    elif(y == "/"):
+        resultado = int(eval(x+y+z))
+        return resultado
+
+    elif(y == "*"):
+        resultado = int(eval(x+y+z))
+        return resultado
+    else:
+        return 0
+ 
+    
+resp = calcular(x,y,z)
+print("Valor :",resp)
